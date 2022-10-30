@@ -1,6 +1,6 @@
  import Pic from './Aboya.jpg';
  import vector from './logo.png';
-//  import text from './Footer_text.png';
+ import avatar from './_Avatar.png';
  import I4G from './I4G.png';
 import Git from './Icon.png';
 import Slack from './slack.png';
@@ -21,12 +21,12 @@ function App() {
 
 function Header(){
   return(
-      <header>
-        <nav>
+          <div>
           <img src= {Pic} id="profile__img" alt="profile Pic" width= "90px"/>
+          <img src= {avatar} id="avatar__img" alt="profile Pic" />
+          </div>
          
-        </nav>
-      </header>
+
   )
 }
 function Social(){
@@ -41,9 +41,7 @@ function Social(){
 function Footer(){
   return(
       <footer>
-        
         <div className='footer-image'><img src= {vector}  alt="profile Pic" /></div>
-        {/* <div><img src= {text}  alt="profile Pic" /></div> */}
         <span>HNG Internship 9 Frontend Task</span>
         <div className='footer-image'><img src= {I4G}  alt="profile Pic" /></div>
 
