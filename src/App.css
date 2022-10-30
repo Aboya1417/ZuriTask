@@ -5,9 +5,6 @@ flex-direction: column;
   justify-content: center;
 align-items: center;
 }
-/* a{
-  text-decoration: none;
-} */
 
 #twitter{
   
@@ -39,7 +36,7 @@ flex-grow: 1;
 
 #profile__img{
 
-
+margin: 24px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -100,11 +97,15 @@ footer{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px 0;
+    justify-content: space-evenly;
+    padding: 20px ;
     width: 100%;
+    border-top: slategrey 0.1px #667085;
+
+
+background: #FFFFFF;
 }
-footer > img{
+footer .footer-image > img{
   width: 150px;
 }
 footer > span{
@@ -112,46 +113,39 @@ footer > span{
     font-size: 1.1rem;
 }
 .social{
-  /* Auto layout */
 
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 24px 0px;
-gap: 64px;
 
-width: 1216px;
-height: 72px;
-
-/* Base/White */
-
-background: #FFFFFF;
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+  Width:
+  Fill (1,216px);
+  Height:
+  Hug (72px);
+  Top:
+  862px;
+  Left:
+  112px;
+  Padding:
+  24px, 0px, 24px, 0px;
+  Gap:
+  64px;
+  margin: 24px;
+  
 }
 #slack__img{
-  width: 24px;
-height: 24px;
+  width: 40px;
+  height: 40px;
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px;
 }
 #git{
-  position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 2.31%;
+  width: 40px;
+  height: 40px;
 
-background: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px;
 }
 

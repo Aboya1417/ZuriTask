@@ -2,8 +2,8 @@
  import vector from './logo.png';
 //  import text from './Footer_text.png';
  import I4G from './I4G.png';
-//  import Git from './Icon.png';
-//  import Slack from './slack.png';
+import Git from './Icon.png';
+import Slack from './slack.png';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Header />
         <WriteUps />
         <Buttons />
-        {/* <Social /> */}
+        <Social />
         <Footer />
     </div>
   );
@@ -23,39 +23,37 @@ function Header(){
   return(
       <header>
         <nav>
-          <img src= {Pic} id="profile__img" alt="profile Pic" width= "80px"/>
+          <img src= {Pic} id="profile__img" alt="profile Pic" width= "90px"/>
          
         </nav>
       </header>
   )
 }
-// function Social(){
-//   return(
-//       <div className='social'>
-//           <img src= {Git} id="git" alt="profile Pic" width= "80px"/>
-//           <img src= {Slack} id="slack__img" alt="profile Pic" width= "80px"/>
-//       </div>
-//   )
-// }
+function Social(){
+  return(
+      <div className='social'>
+          <img src= {Git} id="git" alt="profile Pic" />
+          <img src= {Slack} id="slack__img" alt="profile Pic" />
+      </div>
+  )
+}
 
 function Footer(){
   return(
       <footer>
-        <hr></hr>
-        <div><img src= {vector}  alt="profile Pic" /></div>
+        
+        <div className='footer-image'><img src= {vector}  alt="profile Pic" /></div>
         {/* <div><img src= {text}  alt="profile Pic" /></div> */}
         <span>HNG Internship 9 Frontend Task</span>
-        <div><img src= {I4G}  alt="profile Pic" /></div>
-        
-        
-        
+        <div className='footer-image'><img src= {I4G}  alt="profile Pic" /></div>
+
       </footer>
   )
 }
 function WriteUps(){
   return(
     <div>
-    <h2 id='twitter'>Udo Bassey</h2>
+    <h2 id='twitter'>BasCee</h2>
     <h2 id='slack' hidden>Aboya</h2>
     </div>
   )
@@ -78,7 +76,7 @@ function Buttons(){
         <a id='book__design' href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer">
         Design Books
         </a>
-            
+
         </div>
   )
 }
