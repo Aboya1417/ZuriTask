@@ -57,6 +57,30 @@ flex-grow: 0;
 z-index: 0;
   
 }
+
+#avatar__img{
+  position: absolute;
+width: 40px;
+height: 40px;
+right: 450px;
+top: 2px;
+
+/* Base/White */
+
+background: #FFFFFF;
+/* Gray/300 */
+
+border: 1px dashed #D0D5DD;
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+}
+
 a {
  /* Frame 5 */
 text-decoration: none;
