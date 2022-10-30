@@ -124,7 +124,7 @@ footer{
     justify-content: space-evenly;
     padding: 20px ;
     width: 100%;
-    border-top: slategrey 0.1px #667085;
+    /* border-top: solid rgb(127, 140, 153); */
 
 
 background: #FFFFFF;

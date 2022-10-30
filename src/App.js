@@ -32,8 +32,8 @@ function Header(){
 function Social(){
   return(
       <div className='social'>
+         <img src= {Slack} id="slack__img" alt="profile Pic" />
           <img src= {Git} id="git" alt="profile Pic" />
-          <img src= {Slack} id="slack__img" alt="profile Pic" />
       </div>
   )
 }
