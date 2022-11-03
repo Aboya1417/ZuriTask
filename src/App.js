@@ -1,9 +1,9 @@
- import Pic from './Aboya.jpg';
- import vector from './logo.png';
- import avatar from './_Avatar.png';
- import I4G from './I4G.png';
-import Git from './Icon.png';
-import Slack from './slack.png';
+
+ import vector from './Icons/logo.png';
+ import I4G from './Icons/I4G.png';
+import Git from './Icons/Icon.png';
+import Slack from './Icons/slack.png';
+import Header from './Components/Header';
 import './App.css';
 
 function App() {
@@ -19,16 +19,7 @@ function App() {
   );
 }
 
-function Header(){
-  return(
-          <div>
-          <img src= {Pic} id="profile__img" alt="profile Pic" width= "90px"/>
-          <img src= {avatar} id="avatar__img" alt="profile Pic" />
-          </div>
-         
 
-  )
-}
 function Social(){
   return(
       <div className='social'>
@@ -74,6 +65,10 @@ function Buttons(){
         <a id='book__design' href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer">
         Design Books
         </a>
+        <a id='contact' href="https://books.zuri.team/design-rules" target="_blank" rel="noreferrer">
+        Contact Us
+        </a>
+
 
         </div>
   )
