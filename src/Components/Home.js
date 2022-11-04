@@ -46,7 +46,7 @@ function WriteUps(){
           Design Books
           </a>
           <Link to="/contact" id='contact'  target="_blank" rel="noopener noreferrer">
-          Contact Us
+          Contact Me
           </Link>
   
   
