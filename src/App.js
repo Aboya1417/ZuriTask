@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
  import Home from './Components/Home'
 //import Git from './Icons/Icon.png';
 // import Slack from './Icons/slack.png';
@@ -15,16 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-      <Footer />
     </Router>
-    // <div className="App">
-      
-    //     <Header />
-    //     <WriteUps />
-    //     <Buttons />
-    //     <Social />
-    //     <Footer />
-    // </div>
   );
 }
 
