@@ -27,11 +27,11 @@ function Contact() {
                                 <form class="row g-3">
                                     <div class="col-md-6">
                                         <label for="firstname" class="form-label">First Name</label>
-                                        <input placeholder="Enter Your First Name" type="text" class="form-control" id="firstname" />
+                                        <input placeholder="Enter Your First Name" type="text" class="form-control" id="first_name" />
                                     </div>
                                     <div class="col-md-6">
                                         <label for="lastname" class="form-label">Last Name</label>
-                                        <input placeholder="Enter Your Last Name" type="text" class="form-control" id="lastname" />
+                                        <input placeholder="Enter Your Last Name" type="text" class="form-control" id="last_name" />
                                     </div>
                                     <div class="col-12">
                                         <label for="email" class="form-label">Email</label>
@@ -51,7 +51,7 @@ function Contact() {
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button type="submit" class="btn btn-primary form-control">Send Message</button>
+                                        <button type="submit" id="btn__submit" class="btn btn-primary form-control">Send Message</button>
                                     </div>
                                 </form>
 
@@ -63,7 +63,10 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <div id="footerdiv">
             <Footer />
+            </div>
+            
         </div>
     )
 }

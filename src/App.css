@@ -18,6 +18,9 @@ height: 960px;
 left: 0px;
 top: 0px;
 }
+#footerdiv{
+  width: 100%;
+}
 textarea{
   box-sizing: border-box;
 
@@ -202,6 +205,7 @@ footer{
     justify-content: space-evenly;
     padding: 20px ;
     width: 100%;
+    margin-top: 150px;
     /* border-top: solid rgb(127, 140, 153); */
 
 
